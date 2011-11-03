@@ -1,0 +1,41 @@
+/**
+ * Base page styles
+ */
+
+body {
+  background:url(../images/bg.png) top left;
+}
+
+#wrapper {
+  @extend .grid;
+}
+
+#masthead {
+  @extend .grid-full;
+}
+
+#logo {
+  a{
+    span{
+      font-size: 7.5em;
+    }
+  }
+}
+
+#main {
+  @extend .grid-2-third;
+}
+
+#aside {
+  @extend .grid-1-third;
+}
+
+#footer {
+  @extend .grid-full;
+}
+
+#my-indented-friend {
+  @extend .grid-1-third;
+  @extend .grid-indent-9;
+}
+
