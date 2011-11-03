@@ -9,12 +9,34 @@
 
 $relative-font-sizing:     false;
 
-$base-font-family:         sans-serif;
-$base-font-size:           16px;
-$base-line-height:         24px;
-$base-font-color:          #333;
-$base-link-color:          #0073e5;
-$base-link-visited-color:  #471f99;
+// $base-font-family:         sans-serif;
+// $base-font-size:           16px;
+// $base-line-height:         24px;
+// $base-font-color:          #333;
+// $base-link-color:          #0073e5;
+// $base-link-visited-color:  #471f99;
+
+$base-font-family: unquote('sans-serif');  // default font-family
+
+$base-font-size: 13px;  // default font-size for YUI fonts
+
+$base-line-height: 1.231;  // default line-height for YUI fonts
+
+$base-font-color: #444;
+
+$base-link-color: #607890;
+
+$base-link-hover-color: #036;
+
+$base-link-active-color: #607890;
+
+$base-link-visited-color: #607890;
+
+$selected-font-color: #fff;  // color for selected text
+
+$selected-background-color: #ff5E99;  // bg-color for selected text
+
+$list-left-margin: 2em;  // left margin for ul an ol
 
 
 // Imports

@@ -42,32 +42,37 @@ html.no-js lang="en"
 
             span K-not
 
-      nav
-        ul
-          li
-            a
-              Services
-          li
-            a
-              Products
-          li
-            a
-              Blog
+        nav
+          ul
+            li
+              a href="services.html" Services
+            li
+              a href="experiments.html" Experiments
+            li
+              a href="http://k-not.posterous.com/"  Blog
 
       #main role="main"
         == yield
 
-      #aside
-        p Test
-
-      #my-indented-friend
-        p I haz indentation
-
       footer#footer
-        | ©2011 K-not - 
-        a href='privacy.html' Privacy
-        |  | 
-        a href='refund.html' Refund
+        #copyright
+          | ©2011 K-not - 
+          a href='privacy.html' Privacy
+          |  | 
+          a href='refund.html' Refund
+
+        aside#Social
+          ul
+            h3 Social :
+            li
+              a href='http://twitter.com/knotdevelopers' Twitter
+              |  | 
+            li
+              a href='http://github.dom/k-not' Github
+              |  | 
+            li
+              a href="mailto:info@k-not.com"
+                | Email
 
     / Javascript at the bottom for fast page loading
     script src="javascripts/site.js"
